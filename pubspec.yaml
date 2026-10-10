@@ -35,6 +35,8 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   google_fonts: ^9.0.0
+  animated_text_kit: ^4.2.2
+  bordered_text: ^3.0.2
 
 dev_dependencies:
   flutter_test:
@@ -62,12 +64,13 @@ flutter:
   assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
-      - images/aonohako.png
-      - images/bolaNegra.jpg
-      - images/bullseye.webp
-      - images/chi.webp
-      - images/gato.png
-      - images/olivia.webp
+      - assets/images/aonohako.png
+      - assets/images/bolaNegra.jpg
+      - assets/images/bullseye.webp
+      - assets/images/chi.webp
+      - assets/images/gato.png
+      - assets/images/verbatim.png
+      - assets/images/olivia.webp
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
@@ -80,6 +83,15 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
+  fonts:
+    - family: Svetze
+      fonts:
+        - asset: assets/fonts/Svetze.otf
+
+    - family: RasleyHeights
+      fonts:
+        - asset: assets/fonts/RasleyHeights.otf
+
   # fonts:
   #   - family: Schyler
   #     fonts:

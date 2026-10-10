@@ -12,7 +12,7 @@ class Enlace1 extends StatelessWidget {
         body: Center(
             child: Column(children: [
            Center(
-              child: Image.asset("images/gato.png"))
+              child: Image.asset("assets/images/gato.png"))
               //textDirection: TextDirection.ltr,
               ,
           Text("Lucas González Aneas"),
